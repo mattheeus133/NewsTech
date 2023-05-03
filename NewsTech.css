@@ -1,0 +1,162 @@
+*{
+    margin: 0;  
+    padding: 0;
+}
+body{
+    margin: 15px;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    
+}
+
+#container{
+   /* background:red url(Component\ 4.png) ;*/
+   /* border: 2px solid blue;*/
+    margin: 0 auto;
+    min-width: 740px;
+	max-width: 1180px;
+    
+}
+
+a{
+    text-decoration: none;
+}
+
+/*Inicio Cabeçalho*/
+div{
+    /*border: 1px solid blue;*/
+}
+#Cabecalho{
+    position: relative;
+    background:  white;
+    padding-bottom: 200px;
+    width: 100%;
+
+}
+.Logo a{
+     position: absolute;
+     top: 30px;
+     left: 10px;
+    /* border:  1px solid red;*/
+     width: 429px;
+     height: 121px;
+     background: url(LogoNewsTech.png);
+     text-indent: -9000px;
+     
+}
+
+.Menu{
+    background: #E91313;
+    border-radius: 30px;
+    position: absolute;
+    width: 32%;
+    padding: 15px;
+    left: 600px;
+    top: 80px;
+    /*border: 2px solid blue;*/
+}
+
+.Menu a{
+    color:white;
+}
+
+.Menu a:hover{
+    color:black;
+}
+.Menu ul{
+    margin: 0;
+    list-style: none;
+}
+.Menu ul li{
+    float: left;
+}
+.Menu ul li a{
+    
+    margin: 3px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+/*Fim Cabeçalho*/
+
+#Area-conteudo{
+  /*border: 2px solid blue;*/
+  height: 1000px;
+}
+#Area-conteudo2{
+    position: absolute;
+    /*border: 1px solid black;*/
+    left: 200px;
+    width: 630px;
+    height: 733px;
+    padding: 5px;
+}
+
+#conteudo2{
+    position: absolute;
+    /*border: 1px solid black;*/
+    top: 220px;
+    right: 65px;
+    width: 272px;
+    height: 729px;
+}
+
+#Area-conteudo2 h2{
+    text-align: center;
+    /*border: 1px solid black;*/
+    margin-bottom: 10px;
+}
+
+#Area-conteudo2 img{
+    margin-top: 5px;
+    width: 600px;
+}
+
+#Area-conteudo2 .title{
+      position: absolute;
+      background: #D93B3B;
+      top: 350px;
+      width: 460px;
+}
+
+#Area-conteudo2 .title2{
+    position: absolute;
+    background: #D93B3B;
+      width: 270px;
+      top: 800px;
+}
+
+#Area-conteudo2 p, h3, img, a{
+    margin-left: 10px;
+}
+#Area-conteudo2 a{
+    color: #A76161;
+}
+#Area-conteudo2 a:hover{
+    color: #D93B3B ;
+
+}
+    
+.caixa-conteudo li{
+    list-style: none;
+    /*border: 1px solid black;*/
+    margin: 10px 0;
+}
+
+#lista-noticias li a img {
+	float: left;
+	margin: 5px;
+}
+
+#lista-noticias li a{
+ color: #A76161;
+}
+
+#lista-noticias li a:hover{
+    cursor: pointer;
+}
+
+#lista-noticias li p{
+    margin: 5px;
+}
+	
+
